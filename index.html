@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Rounak Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand logo" href="#">
+                <span class="logo-box">R</span>
+                Rounak
+            </a>
+
+            <!-- Hamburger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Mobile Sidebar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <button class="btn-close btn-close-white d-lg-none ms-auto me-3 mb-4" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                </button>
+
+                <ul class="navbar-nav ms-lg-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section class="hero-carousel" id="home">
+
+        <div class="container">
+
+            <div id="portfolioCarousel" class="carousel slide shadow-lg rounded overflow-hidden" data-bs-ride="carousel"
+                data-bs-interval="3000">
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0"
+                        class="active"></button>
+
+                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1"></button>
+
+                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2"></button>
+                </div>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="assets/corosuel1.webp" alt="Slide 1">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/corosuel2.webp" alt="Slide 2">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/corosuel3.webp" alt="Slide 3">
+                    </div>
+
+                </div>
+
+                <div class="carousel-content">
+                    <h1>Hi, I'm Rounak Gupta</h1>
+                    <p>Web Developer | Problem Solver | Tech Enthusiast</p>
+
+                    <div class="hero-buttons">
+                        <a href="assets/Rounak-Resume.pdf" class="btn btn-info fw-bold" download>
+                            Download Resume
+                        </a>
+                    </div>
+                </div>
+
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about-section" id="about">
+
+        <div class="container">
+
+            <!-- Heading -->
+
+            <div class="text-center mb-5">
+                <span class="about-title">About Me</span>
+            </div>
+
+            <div class="row g-4 align-items-center">
+
+                <!-- Image Card -->
+
+                <div class="col-lg-3">
+
+                    <div class="image-card">
+
+                        <img src="assets/photo.webp" alt="Rounak Gupta" class="profile-img">
+
+                    </div>
+
+                </div>
+
+                <!-- Details Card -->
+
+                <div class="col-lg-9">
+
+                    <div class="details-card ">
+
+                        <h2 class="name">
+                            Rounak Gupta
+                        </h2>
+
+                        <p class="role">
+                            Web Developer
+                        </p>
+
+                        <p class="about-description">
+                            I'm a passionate Computer Science student who enjoys
+                            building modern and responsive websites. I love
+                            transforming ideas into real-world solutions through
+                            code and continuously learning new technologies.
+
+
+                        </p>
+
+                        <div class="info-list">
+
+                            <div class="info-item">
+                                <i class="fa-solid fa-user"></i>
+                                <span><span class="fw-bold">Name: </span>Rounak Gupta</span>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span><span class="fw-bold">Email: </span>rounakgupta620@gmail.com</span>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span><span class="fw-bold">Location: </span> Jharkhand, India</span>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span><span class="fw-bold">Freelance: </span>Available</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="projects-section" id="projects">
+
+        <div class="container">
+
+            <!-- Heading -->
+
+            <div class="text-center mb-5">
+                <span class="projects-title">My Projects</span>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Project 1 -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="project-card">
+
+                        <img src="assets/project1.webp" alt="Portfolio Website" class="project-img">
+
+                        <div class="project-content">
+
+                            <h4>Portfolio Website</h4>
+
+                            <p>
+                                A modern responsive portfolio website
+                                built using HTML, CSS and Bootstrap.
+                            </p>
+
+                            <a href="#" class="project-btn">
+                                View Project
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Project 2 -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="project-card">
+
+                        <img src="assets/project2.webp" alt="E-Commerce Website" class="project-img">
+
+                        <div class="project-content">
+
+                            <h4>E-Commerce Website</h4>
+
+                            <p>
+                                Online shopping platform with cart,
+                                product listing and checkout page.
+                            </p>
+
+                            <a href="#" class="project-btn">
+                                View Project
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Project 3 -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="project-card">
+
+                        <img src="assets/project3.webp" alt="Task Manager" class="project-img">
+
+                        <div class="project-content">
+
+                            <h4>Task Manager App</h4>
+
+                            <p>
+                                Task management system for adding,
+                                editing and tracking tasks.
+                            </p>
+
+                            <a href="#" class="project-btn">
+                                View Project
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="contact-section" id="contact">
+
+        <div class="container">
+
+            <!-- Heading -->
+
+            <div class="text-center mb-5">
+                <span class="contact-title">Contact Me</span>
+            </div>
+
+            <div class="row g-4 align-items-stretch">
+
+                <!-- Google Map -->
+
+                <div class="col-lg-6">
+
+                    <div class="contact-card map-card">
+
+                        <iframe src="https://www.google.com/maps?q=Ranchi,Jharkhand&output=embed" allowfullscreen=""
+                            loading="lazy">
+                        </iframe>
+
+                    </div>
+
+                </div>
+
+                <!-- Contact Details -->
+
+                <div class="col-lg-6">
+
+                    <div class="contact-card details-contact">
+
+                        <h3 class="fw-bolder">Let's Connect</h3>
+
+                        <p>
+                            I'm always open to discussing new projects,
+                            creative ideas, internships, freelance work,
+                            or opportunities to be part of your vision.
+                        </p>
+
+                        <div class="contact-info">
+
+
+                            <div class="contact-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <span><span class="fw-bold">Phone: </span>+91 62062 34242</span>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span><span class="fw-bold">Email: </span>rounakgupta620@gmail.com</span>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fa-solid fa-house"></i>
+                                <span>
+                                    <span class="fw-bold">Address: </span>
+                                    Ramgarh, Ranchi, Jharkhand
+                                </span>
+                            </div>
+
+                            <div class="follow-me">
+
+                                <h5>Follow Me</h5>
+
+                                <div class="social-icons">
+
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+
+                                    <a href="#">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+
+                                    <a href="#">
+                                        <i class="fa-brands fa-x-twitter"></i>
+                                    </a>
+
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+
+                                    <a href="#">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="skills-section" id="skills">
+
+        <div class="container text-center">
+
+            <!-- Title -->
+            <div class="skills-title">
+                Skill Set
+            </div>
+
+            <!-- Skills Row -->
+            <div class="skills-wrapper">
+
+                <!-- Skill 1 -->
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5 skill-icon"></i>
+                    <h5>HTML</h5>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 2 -->
+                <div class="skill-card">
+                    <i class="fa-brands fa-css3-alt skill-icon"></i>
+                    <h5>CSS</h5>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 3 -->
+                <div class="skill-card">
+                    <i class="fa-brands fa-js skill-icon"></i>
+                    <h5>JavaScript</h5>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 4 -->
+                <div class="skill-card">
+                    <i class="fa-brands fa-bootstrap skill-icon"></i>
+                    <h5>Bootstrap</h5>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 5 -->
+                <div class="skill-card">
+                    <i class="fa-brands fa-java skill-icon"></i>
+                    <h5>Java</h5>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer-section">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <!-- Left -->
+                <div class="footer-box">
+                    <a class="footer-logo" href="#">
+                        <span class="footer-logobox">R</span>
+                        <span class="footer-logotext">Rounak</span>
+                    </a>
+                    <p>
+                        A passionate Frontend Developer building modern, responsive and clean web designs.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-box">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-box">
+                    <h4>Contact</h4>
+                    <p><i class="fa-solid fa-envelope"></i> rounakgupta620@gmail.com.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 62062 76543</p>
+                    <p><i class="fa-solid fa-location-dot"></i> India</p>
+                </div>
+
+                <!-- Social -->
+                <div class="footer-box">
+                    <h4>Follow Me</h4>
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/RounakGupta0"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Rounak Gupta. All Rights Reserved.</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/f399bff18a.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
